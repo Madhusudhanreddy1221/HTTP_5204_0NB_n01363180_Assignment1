@@ -22,6 +22,11 @@ namespace PetGrooming.Models
             An owner must reference a list of pets
             
         */
+        public string first_name { get; set; }
+        public string last_name { get; set; }
+        public string address { get; set; }
+        public int phone_work{ get; set; }
+        public int phone_home { get; set; }
 
     }
 }

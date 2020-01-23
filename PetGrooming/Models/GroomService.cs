@@ -18,5 +18,8 @@ namespace PetGrooming.Models
                 - Cost
                 - Duration
          */
+        public string service_name { get; set; }
+        public int cost { get; set; }
+        public int duration { get; set; }
     }
 }
